@@ -24,16 +24,16 @@ OUTPUT_PDF_PATH = "/home/tulasiram/ubuntu_server/RAG_ChatApp_LangChain/Output_Da
 VECTOR_INDEX_PATH = "/home/tulasiram/ubuntu_server/RAG_ChatApp_LangChain/vector_index"
 
 AZURE_EMBEDDING_CONFIG = {
-    "azure_endpoint": "https://25996-openai.openai.azure.com/openai/deployments/text-embedding-ada-002/embeddings?api-version=2023-05-15",
-    "api_key": "3b578c1bce87445fad51ca5b03212249",
+    "azure_endpoint": "*******************************************************************************",
+    "api_key": "**********************************",
     "api_version": "2023-05-15",
     "deployment": "text-embedding-ada-002",
     "model": "text-embedding-ada-002",
 }
 
 AZURE_CHAT_CONFIG = {
-    "azure_endpoint": "https://25996-gpt-4o-mini.openai.azure.com/",
-    "api_key": "770082685af343f59fd16883fa006c48",
+    "azure_endpoint": "**********************************************************************************",
+    "api_key": "**********************************",
     "deployment_name": "gpt-4o-mini",
     "api_version": "2025-01-01-preview",
     "temperature": 0.3,
